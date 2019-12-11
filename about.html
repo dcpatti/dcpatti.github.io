@@ -49,10 +49,12 @@
 <div style="text-align:left;">
     <p style="float: left;"><img src="images/fitbit.jpg" height="400px" width="220px" border="20px" hspace="20px"></p>
    <p style = "color:white;"> This project was inspired by a Nationals fan exploring her own FitBit a week or two after the World Series, then noticing similar patterns on her friends' FitBits.</p>
-   						<p style = "color:white;"> This project was built with roughly 1GB of FitBit heart rate and sleep logs obtained in json and .csv format from 20 fan volunteers. The data was cleaned
-   						and normalized using Python and Pandas in Jupyter notebooks; the visualizations were built using Bokeh.
-   						The two game log style charts each feature only a subset of the fan data. The datasets for each were chosen on completeness.  There are a variety of reasons for incomplete data such as
-						a device with a dead battery or problems syncing the device with the user account.</p>
+   						<p style = "color:white;"> This project was built with roughly 1.5GB of FitBit heart rate and sleep logs obtained in json and .csv format from 35 fan volunteers. The data was cleaned
+   						and normalized using Python and Pandas in Jupyter notebooks; the visualizations were built using Bokeh.</p>
+
+						<p style = "color:white;">Noteworthy game events were culled from <h href="https://www.baseball-reference.com/boxes/WAS/WAS201910010.shtml">Baseball Reference's game log</a> then cross-referenced
+						with Twitter, using the earliest event-related tweet to establish the event's timestamp.  The two datasets for the game log-style charts were selected based on completeness; many fan logs for each
+						day contain large blocks of missing data, making timeline visualization difficult. The specific games were chosen for their expected high emotional value among Nats fans. </p>
 </div>
 					</header>
 
